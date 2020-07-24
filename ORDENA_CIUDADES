@@ -1,0 +1,14 @@
+def ordenar_ciudades(ciudades):
+	for i in ciudades:
+		if ciudades[i]<200000:
+			print(i)
+
+ciudades={"Habana": 120000,
+"Madrid": 500000,
+"Paris": 50000000,
+"Oslo": 300000,
+"Miami": 550000,
+"Cuzco": 160000,
+"Caracas": 390000}
+
+ordenar_ciudades(ciudades)
